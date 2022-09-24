@@ -1,0 +1,1 @@
+Instead of using props, the props variables can be passed in function as objects like in this program

@@ -1,0 +1,6 @@
+The programs and functions here have not proper way of incrementing/decrementing. 
+
+If these are provided inside conditional/looping statements, the output will not be proper
+
+In these cases, fetch the previous value, store and update these values
+Refer programs of 15-08-2022

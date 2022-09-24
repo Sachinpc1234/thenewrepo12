@@ -1,0 +1,38 @@
+.dinga
+{
+    background-color: aqua;
+    /* color: white; */
+    font-size: 20px; 
+    height:auto;
+    width: 250px;
+    box-shadow: 1px 1px 20px 1px green;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    display: inline-block;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* animation-name: box;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+}
+@keyframes box {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(100px);
+    }
+}

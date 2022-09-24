@@ -1,0 +1,9 @@
+.CSS{
+    background-color: aquamarine;
+    max-width: fit-content;
+    display: inline-block;
+    border: 5px dotted black;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,147 @@
+#fish{
+    margin-top:50px;
+    height:138px;
+    width:184px;
+    /* position: relative; */
+    animation-name: fish;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+#A{
+    height:20px;
+    width:20px;
+    margin-top: 120px;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    position:absolute;
+    animation-name: ball1;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+}
+#B{
+    height:20px;
+    width:20px;
+    margin-top: 120px;
+    margin-left: 300px;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    position:absolute;
+    animation-name: ball2;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
+}
+#C{
+    height:20px;
+    width:20px;
+    margin-top: 120px;
+    margin-left: 500px;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    position:absolute;
+    animation-name: ball3;
+    animation-duration:10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+}
+
+@keyframes fish {
+    0%,100%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(130px);
+    }
+    20%{
+        transform: translateX(330px);
+    }
+    30%{
+        transform: translateX(530px);
+    }
+    40%{
+        transform: translateX(814px);
+    }
+    50%{ 
+        transform: translateX(814px) rotateY(180deg);
+    }
+    60%{
+        transform: translateX(680px) rotateY(180deg);
+    }
+    70%{
+        transform: translateX(480px) rotateY(180deg);
+    }
+    80%{
+        transform: translateX(280px) rotateY(180deg);
+    }
+    90%{
+        transform: translateX(0px) rotateY(180deg);
+    }
+}
+@keyframes ball1 {
+0%,100%{
+    margin-top: 120px;
+}
+10%{
+    margin-top: 220px;
+}
+20%{
+    margin-top: 120px;
+}
+70%{
+    margin-top: 120px;
+}
+80%{
+    margin-top: 220px;
+}
+90%{
+    margin-top: 120px;
+}
+}
+@keyframes ball2{
+    0%,100%{
+        margin-top: 120px;
+    }
+    10%{
+        margin-top: 220px;
+    }
+    20%{
+        margin-top: 120px;
+    }
+    50%{
+        margin-top: 120px;
+    }
+    60%{
+        margin-top: 220px;
+    }
+    70%{
+        margin-top: 120px;
+    }
+}
+@keyframes ball3 {
+    0%,100%{
+        margin-top: 120px;
+    }
+    10%{
+        margin-top: 220px;
+    }
+    20%{
+        margin-top: 120px;
+    }
+    30%{
+        margin-top: 120px;
+    }
+    40%{
+        margin-top: 220px;
+    }
+    50%{
+        margin-top: 120px;
+    }
+    }
